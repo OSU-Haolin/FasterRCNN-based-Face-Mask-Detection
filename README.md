@@ -1,10 +1,10 @@
 # Face-Mask-Detection
-## Haolin Zhang, The Ohio State University.
+## Haolin Zhang
 
+人脸口罩检测（中文）/ Face mask detection (English)  
+<!--[杭州深想科技](http://www.deeptk.com/)（中文）/ Hangzhou Shenxiang Technology (English)!-->  
 Update 2021/01/01: Faster R-CNN based Face Mask Detector  
   
-人脸口罩检测（中文）/ Face mask detection (English)
-
 <p align="center">
 <img src="example.jpg" alt="Face-Mask-Detection-Demo" align="middle" width="800"/>
 </p>
