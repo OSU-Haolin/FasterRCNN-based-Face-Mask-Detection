@@ -67,7 +67,7 @@ Then processed `train` folder and `val` folder will show in the root folder as f
 
 
 ## Reference
-https://github.com/AIZOOTech/FaceMaskDetection
-https://github.com/aky15/AIZOO_torch
-Ren, Shaoqing, Kaiming He, Ross Girshick, and Jian Sun. "Faster r-cnn: Towards real-time object detection with region proposal networks." IEEE transactions on pattern analysis and machine intelligence 39, no. 6 (2016): 1137-1149.
+https://github.com/AIZOOTech/FaceMaskDetection  
+https://github.com/aky15/AIZOO_torch  
+Ren, Shaoqing, Kaiming He, Ross Girshick, and Jian Sun. "Faster r-cnn: Towards real-time object detection with region proposal networks." IEEE transactions on pattern analysis and machine intelligence 39, no. 6 (2016): 1137-1149.  
 
