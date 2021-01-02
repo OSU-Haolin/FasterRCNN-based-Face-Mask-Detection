@@ -65,10 +65,13 @@ Then processed `train` folder and `val` folder will show in the root folder as f
 
 ## Experimental Results
 
+800 images (400: with mask 400: without mask) for training  
+500 images (250: with mask 250: without mask) for testing  
+
 Face Without Mask  
 |  IoU threshold   | 0.5  | 0.7   | 0.9  |
 |  ----  | ----  | ----  | ----  |
-| mAP  | 0.90 | 0.80  | 0.01 |
+| mAP  | 0.83 | 0.69  | 0.10 |
 
 Face With Mask  
 |  IoU threshold   | 0.5  | 0.7   | 0.9  |
