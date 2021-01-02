@@ -65,6 +65,7 @@ Then processed `train` folder and `val` folder will show in the root folder as f
 
 ## Experimental Results
 
+epoches = 10, Adam Optimizer, learning rate = 0.0001  
 800 images (400: with mask 400: without mask) for training  
 500 images (250: with mask 250: without mask) for testing  
 
