@@ -1,6 +1,10 @@
 # Face-Mask-Detection
 人脸口罩检测（中文）/ Face mask detection (English)
 
+<p align="center">
+<img src="result_example.png" alt="Face-Mask-Detection" align="middle" width="800"/>
+</p>
+
 ## Environment
 
 We recommend to use `anaconda` to create a python3 environment to manage the pytorch-GPU environment.   
@@ -29,9 +33,11 @@ The files in `AIZOO` are as follow:
     ├── val
     └── readme.md
     ```   
+
 2.Process the Dataset by running 'dataset_copy.py'. In our demo, we use 800 images for training and 500 images for validation.  
 Then processed `train` folder and `val` folder will show in the root folder as follow:    
-    ```shell script  
+   
+```shell script  
    /ROOT/  
     ├── train  
     │   ├── Annotations  
@@ -41,5 +47,27 @@ Then processed `train` folder and `val` folder will show in the root folder as f
         ├── Annotations  
         ├── JPEGImages  
         └── val.txt  
-    ```
-    note: you can select how many images you want use for training and validation by change 'dataset_copy.py'.  
+```
+
+    note: you can choose how many images you want to use for training and validation by revising 'dataset_copy.py'.  
+    
+3. Traing the Faster R-CNN based Face Mask Detection Model. Run `train_faster_rcnn.py` (you can set customized parameters)  
+
+
+## Evaluation and Demo  
+
+1. After the trained models are saved in `checkpoints_faster_rcnn`, you can run `evaluation_faster_rcnn` to calculate mAP for both Face With mask and Face Without Mask.
+2. After the trained models are saved in `checkpoints_faster_rcnn`, you can run `demo_faster_rcnn.py` to visualize the detection result by changing `demo.jpg`.   
+
+## Experimental Results
+
+|  IoU threshold   | 0.5  | 0.7   | 0.9  |
+|  ----  | ----  | ----  | ----  |
+| mAP  | 0.90 | 0.80  | 0.01 |
+
+
+## Reference
+https://github.com/AIZOOTech/FaceMaskDetection
+https://github.com/aky15/AIZOO_torch
+Ren, Shaoqing, Kaiming He, Ross Girshick, and Jian Sun. "Faster r-cnn: Towards real-time object detection with region proposal networks." IEEE transactions on pattern analysis and machine intelligence 39, no. 6 (2016): 1137-1149.
+
