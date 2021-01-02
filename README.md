@@ -61,6 +61,12 @@ Then processed `train` folder and `val` folder will show in the root folder as f
 
 ## Experimental Results
 
+Face Without Mask  
+|  IoU threshold   | 0.5  | 0.7   | 0.9  |
+|  ----  | ----  | ----  | ----  |
+| mAP  | 0.90 | 0.80  | 0.01 |
+
+Face With Mask  
 |  IoU threshold   | 0.5  | 0.7   | 0.9  |
 |  ----  | ----  | ----  | ----  |
 | mAP  | 0.90 | 0.80  | 0.01 |
