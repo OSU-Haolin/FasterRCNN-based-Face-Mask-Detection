@@ -1,4 +1,8 @@
 # Face-Mask-Detection
+## Haolin Zhang, The Ohio State University.
+
+Update 2021/01/01: Faster R-CNN based Face Mask Detector  
+  
 人脸口罩检测（中文）/ Face mask detection (English)
 
 <p align="center">
