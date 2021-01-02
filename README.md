@@ -83,5 +83,7 @@ Face With Mask
 ## Reference
 https://github.com/AIZOOTech/FaceMaskDetection  
 https://github.com/aky15/AIZOO_torch  
-Ren, Shaoqing, Kaiming He, Ross Girshick, and Jian Sun. "Faster r-cnn: Towards real-time object detection with region proposal networks." IEEE transactions on pattern analysis and machine intelligence 39, no. 6 (2016): 1137-1149.  
+Ren, Shaoqing, Kaiming He, Ross Girshick, and Jian Sun. "Faster r-cnn: Towards real-time object detection with region proposal networks." IEEE transactions on pattern analysis and machine intelligence 39, no. 6 (2016): 1137-1149. 
+Chowdary, G. Jignesh, Narinder Singh Punn, Sanjay Kumar Sonbhadra, and Sonali Agarwal. "Face Mask Detection using Transfer Learning of InceptionV3." arXiv preprint arXiv:2009.08369 (2020).
+Jiang, Mingjie, and Xinqi Fan. "RetinaMask: A Face Mask detector." arXiv preprint arXiv:2005.03950 (2020).
 
