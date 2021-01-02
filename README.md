@@ -2,7 +2,7 @@
 人脸口罩检测（中文）/ Face mask detection (English)
 
 <p align="center">
-<img src="example.png" alt="Face-Mask-Detection-Demo" align="middle" width="800"/>
+<img src="example.jpg" alt="Face-Mask-Detection-Demo" align="middle" width="800"/>
 </p>
 
 ## Environment
